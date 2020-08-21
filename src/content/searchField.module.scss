@@ -32,6 +32,10 @@
   border-radius: 25px 0 0 25px;
 }
 
+.input::-ms-clear {
+  display: none;
+}
+
 .xButton {
   margin-top: 0.5em;
   display: inline-block;
