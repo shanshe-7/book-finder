@@ -125,6 +125,7 @@ const SearchField = () => {
               placeholder='Type - Author, Title, Subject...'
               onFocus={handleFocus}
               onBlur={handleBlur}
+              autoComplete='off'
             />
             <button disabled className={classes.xButton}>
               {XButton}
