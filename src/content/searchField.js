@@ -25,7 +25,7 @@ const SearchField = () => {
           setBooksData(newArr);
           setLoading(false);
         } else {
-          setDisplayValue("Results not found. try another input");
+          setDisplayValue("Results not found. try another variant");
           setLoading(false);
         }
       }
