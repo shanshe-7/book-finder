@@ -1,0 +1,29 @@
+.grid {
+  margin: 2em;
+  width: 100%;
+}
+
+.image {
+  width: 128px;
+  height: 192px;
+}
+.title {
+  font-size: 0.75em;
+  text-decoration: none;
+}
+
+.card {
+  margin: 4%;
+  width: 92%;
+  height: 92%;
+}
+
+.text {
+  text-align: justify;
+}
+
+@media only screen and (max-width: 599px) {
+  .text {
+    text-align: center;
+  }
+}
