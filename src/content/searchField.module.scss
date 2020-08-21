@@ -23,7 +23,6 @@
   margin-bottom: 0.5em;
 }
 .input {
-  margin-top: 0.5em;
   width: 25%;
   font-size: 1em;
   border: none;
@@ -31,10 +30,6 @@
   padding: 0 52px;
   height: 3em;
   border-radius: 25px 0 0 25px;
-}
-
-.input::-ms-clear {
-  display: none;
 }
 
 .xButton {
@@ -64,9 +59,9 @@
     font-size: 1.6em;
   }
   .input {
+    margin-top: 0.5em;
     font-size: 0.9em;
     padding: 0 32px;
-    margin-top: 0.5em;
   }
   .button {
     font-size: 0.9em;
@@ -74,8 +69,8 @@
   }
 
   .xButton {
-    font-size: 0.9em;
     margin-top: 0.5em;
+    font-size: 0.9em;
   }
 
   .search {
