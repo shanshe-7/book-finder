@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from "react";
+import React from "react";
 import SearchField from "./content/searchField";
 import classes from "./App.module.scss";
 function App() {

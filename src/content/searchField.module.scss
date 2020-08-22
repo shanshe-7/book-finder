@@ -36,8 +36,13 @@
   display: none;
 }
 
+.inputX {
+  display: flex;
+  justify-content: center;
+}
+
 .xButton {
-  margin-top: 0.5em;
+  margin-right: -0.1em;
   display: inline-block;
   background-color: white;
   height: 3em;
@@ -63,9 +68,10 @@
     font-size: 1.6em;
   }
   .input {
-    margin-top: 0.5em;
+    // margin-top: 0.5em;
     font-size: 0.9em;
     padding: 0 32px;
+    width: 35%;
   }
   .button {
     font-size: 0.9em;
@@ -73,7 +79,9 @@
   }
 
   .xButton {
-    margin-top: 0.5em;
+    // margin-top: 0.5em;
+    border: none;
+    outline: none;
     font-size: 0.9em;
   }
 

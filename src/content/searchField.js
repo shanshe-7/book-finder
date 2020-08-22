@@ -40,7 +40,6 @@ const SearchField = () => {
       setCount((count) => count + 1);
       setDisplayValue("");
     }
-    console.log(count);
   };
 
   const handleEnterPress = (e) => {
@@ -117,22 +116,24 @@ const SearchField = () => {
 
         <form className={classes.form} onKeyDown={handleEnterPress}>
           <Typography>
-            <input
-              className={classes.input}
-              onChange={handleChange}
-              value={value}
-              type='text'
-              placeholder='Type - Author, Title, Subject...'
-              onFocus={handleFocus}
-              onBlur={handleBlur}
-              autoComplete='off'
-            />
-            <button disabled className={classes.xButton}>
-              {XButton}
-            </button>
-            <button className={classes.button} onClick={handleSearchClick}>
-              search
-            </button>
+            <span className={classes.inputX}>
+              <input
+                className={classes.input}
+                onChange={handleChange}
+                value={value}
+                type='text'
+                placeholder='Type - Author, Title, Subject...'
+                onFocus={handleFocus}
+                onBlur={handleBlur}
+                autoComplete='off'
+              />
+              <button disabled className={classes.xButton}>
+                {XButton}
+              </button>
+              <button className={classes.button} onClick={handleSearchClick}>
+                search
+              </button>
+            </span>
           </Typography>
         </form>
       </div>
